@@ -1,5 +1,4 @@
-﻿#include "pch.h"
-#include <iostream>
+﻿#include <iostream>
 #include <string>
 using namespace std;
 /*
@@ -30,11 +29,20 @@ X가 주어졌을 때, X번째 분수를 구하는 프로그램을 작성하시�
 
 int main(void) {
 	string student_id;
-	student_id = "2018-12345";
+	student_id = "2018-18270";
 	cout << student_id << endl;
 	// 자신의 학번을 출력합니다.
 
 	//TO DO
+	int a;
+	int b;
+	cin >> a;
+	for (int i = 1; a > 0; i++)
+	{
+		a = a - i;
+		b = i;
+	}
+	cout << b + a << "/" << 1 - a;
 
 	return 0;
 }
